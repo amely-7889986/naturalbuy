@@ -33,20 +33,35 @@
 
 .l-shopad-box{
 .shopad-big{
-  width:99%;
+  width: 100%;
   float: left;
   overflow: hidden;
-  background: #FFC600;
+  background: #fff;
+  border: 1px #ddd solid;
+  margin-top: 0.4rem;
   img{
     width: 100%;
   }
 }
 .shopad-small{
-  width: 99%;
+  width: 95%;
   float: right;
   overflow: hidden;
+  font-size: 1rem;
+  border: 1px #ddd solid;
+  margin-top: 0.4rem;
+  text-align: center;
+  .shopname{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+  }
+  .shopprice{
+    color: #F00;
+  }
   img{
-    width: 100%;
+    width: 76%;
   }
 }
 }
@@ -88,7 +103,8 @@
 .shoplist{
   width: 95%;
   margin: 1rem auto 0.5rem auto;
-  background: #ffed89;
+  background: #fff;
+  border: 1px #dddddd solid;
   .shopimg{
     img{
     width: 100%;
