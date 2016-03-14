@@ -3534,7 +3534,7 @@ i
     width: 100%;
     height: 45px;
 
-    background-color: #ffed89;
+    background-color: #ddd;
 }.ui-tab-content
 {
     display: -webkit-box;
@@ -3562,8 +3562,8 @@ i
     -webkit-box-flex: 1;
 }.ui-tab-nav li.current
 {
-    background:#ffe501;
-    color: #000;
+    background: #963;
+    color: #fff;
 }.ui-tab-nav li:active
 {
     opacity: .8;
