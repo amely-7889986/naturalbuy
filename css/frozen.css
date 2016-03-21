@@ -1156,17 +1156,17 @@ i
 }.ui-btn-primary
 {
     color: #fff;
-    border-color: #000;
-    background-color: #000;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(.5,#000),to(#000));
+    border-color: #c60c0d;
+    background-color: #c60c0d;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(.5,#c60c0d),to(#c60c0d));
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
 }.ui-btn-primary:not(.disabled):not(:disabled):active,
 .ui-btn-primary.active
 {
     color: rgba(255,255,255,.5);
-    border-color: #000;
-    background: #000;
+    border-color: #c60c0d;
+    background: #c60c0d;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
 }.ui-btn-danger
@@ -1198,7 +1198,7 @@ i
 {
     .ui-btn-primary:before
     {
-        border: 1px solid #0baae4;
+        border: 1px solid #c60c0d;
     }.ui-btn-danger:before
     {
         border: 1px solid #f43d30;
