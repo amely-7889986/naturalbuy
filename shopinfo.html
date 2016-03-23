@@ -165,5 +165,24 @@
     $(".Spinner").Spinner();
   });
 </script>
+<script>
+(function() {
+
+    var tab = new fz.Scroll('.ui-tab', {
+        role: 'tab',
+        autoplay: false,
+        interval: 3000
+    });
+
+    tab.on('beforeScrollStart', function(from, to) {
+        console.log(from, to);
+    });
+
+    tab.on('scrollEnd', function(curPage) {
+        console.log(curPage);
+    });
+
+})();
+</script>
 </body>
 </html>
