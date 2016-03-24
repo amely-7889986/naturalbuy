@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>自然拥有健康跨境购 -  自然拥有健康跨境购</title>
+  <link rel="stylesheet" href="css/frozen.css">
+  <link rel="stylesheet" href="css/swiper.3.2.0.min.css">
+  <link rel="stylesheet" href="css/css/mian.css">
+  </head>
+<body ontouchstart="">
+  <header class="ui-header ui-header-positive">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1><span class="u-top-tit">搜索商品</span></h1>
+    <!--<a class="u-icon-search" href="search.html">搜索</a>-->
+  </header>
+  <footer class="ui-footer ui-footer-btn">
+    <ul class="ui-tiled">
+      <li class="">
+        <div><a href="index.html">首页</a></div>
+      </li>
+      <li class="">
+        <div><a href="shopsort.html">所有分类</a></div>
+      </li>
+      <li class="">
+        <div><a href="shopcar.html">购物车</a></div>
+      </li>
+      <li>
+        <div><a href="usercenter.html">个人中心</a></div>
+      </li>
+    </ul>
+  </footer>
+  <section class="ui-container touchweb-page">
+    <div class="ui-searchbar-wrap">
+    <div class="ui-searchbar ui-border-radius">
+        <i class="ui-icon-search"></i>
+        <div class="ui-searchbar-text">搜索商品</div>
+        <div class="ui-searchbar-input"><input value="" type="tel" placeholder="搜索商品" autocapitalize="off"></div>
+        <i class="ui-icon-close"></i>
+    </div>
+    <button class="ui-searchbar-cancel">取消</button>
+</div>
+  </section>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.Spinner.js"></script>
+  <script src="js/lib/zeptojs/zepto.min.js"></script>
+  <script src="js/frozen.js"></script>
+  <script type="text/javascript">
+    $('.ui-searchbar').tap(function(){
+        $('.ui-searchbar-wrap').addClass('focus');
+        $('.ui-searchbar-input input').focus();
+    });
+    $('.ui-searchbar-cancel').tap(function(){
+        $('.ui-searchbar-wrap').removeClass('focus');
+    });
+</script>
+</body>
+</html>
